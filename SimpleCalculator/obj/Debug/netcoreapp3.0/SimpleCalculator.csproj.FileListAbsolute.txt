@@ -1,0 +1,11 @@
+/Users/lucaspires/Projects/SimpleCalculator/SimpleCalculator/bin/Debug/netcoreapp3.0/SimpleCalculator
+/Users/lucaspires/Projects/SimpleCalculator/SimpleCalculator/bin/Debug/netcoreapp3.0/SimpleCalculator.deps.json
+/Users/lucaspires/Projects/SimpleCalculator/SimpleCalculator/bin/Debug/netcoreapp3.0/SimpleCalculator.runtimeconfig.json
+/Users/lucaspires/Projects/SimpleCalculator/SimpleCalculator/bin/Debug/netcoreapp3.0/SimpleCalculator.runtimeconfig.dev.json
+/Users/lucaspires/Projects/SimpleCalculator/SimpleCalculator/bin/Debug/netcoreapp3.0/SimpleCalculator.dll
+/Users/lucaspires/Projects/SimpleCalculator/SimpleCalculator/bin/Debug/netcoreapp3.0/SimpleCalculator.pdb
+/Users/lucaspires/Projects/SimpleCalculator/SimpleCalculator/obj/Debug/netcoreapp3.0/SimpleCalculator.csprojAssemblyReference.cache
+/Users/lucaspires/Projects/SimpleCalculator/SimpleCalculator/obj/Debug/netcoreapp3.0/SimpleCalculator.AssemblyInfoInputs.cache
+/Users/lucaspires/Projects/SimpleCalculator/SimpleCalculator/obj/Debug/netcoreapp3.0/SimpleCalculator.AssemblyInfo.cs
+/Users/lucaspires/Projects/SimpleCalculator/SimpleCalculator/obj/Debug/netcoreapp3.0/SimpleCalculator.dll
+/Users/lucaspires/Projects/SimpleCalculator/SimpleCalculator/obj/Debug/netcoreapp3.0/SimpleCalculator.pdb
