@@ -13,11 +13,5 @@ pipeline {
       }
     }
 
-    stage('Message') {
-      steps {
-        sh 'echo "Worked!!"'
-      }
-    }
-
   }
 }
