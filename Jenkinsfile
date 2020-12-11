@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
+        echo 'Build project'
         sh 'dotnet build'
+        echo 'Archieve binaries'
         archiveArtifacts 'SimpleCalculator/bin/Debug/netcoreapp3.0/SimpleCalculator'
       }
     }
