@@ -23,7 +23,8 @@ pipeline {
 
     stage('Deploy') {
       steps {
-        sh 'sshpass -o StrictHostKeyChecking=no -p appserverpassword scp SimpeCalculator.tgz root@192.168.30.12:/home/vagrant'
+        sh '''ssh -o StrictHostKeyChecking=no root@192.168.30.12 \'echo $HOME\'
+sshpass -p appserverpassword scp SimpeCalculator.tgz root@192.168.30.12:/home/vagrant'''
       }
     }
 
