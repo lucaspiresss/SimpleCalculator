@@ -13,14 +13,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lucaspires/Projects/SimpleCalculator/SimpleCalculator/SimpleCalculator.csproj",
+      "projectUniqueName": "/Users/lucaspires/Documents/Projects/SimpleCalculator/SimpleCalculator/SimpleCalculator.csproj",
       "projectName": "SimpleCalculator",
-      "projectPath": "/Users/lucaspires/Projects/SimpleCalculator/SimpleCalculator/SimpleCalculator.csproj",
+      "projectPath": "/Users/lucaspires/Documents/Projects/SimpleCalculator/SimpleCalculator/SimpleCalculator.csproj",
       "packagesPath": "/Users/lucaspires/.nuget/packages/",
-      "outputPath": "/Users/lucaspires/Projects/SimpleCalculator/SimpleCalculator/obj/",
+      "outputPath": "/Users/lucaspires/Documents/Projects/SimpleCalculator/SimpleCalculator/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/lucaspires/.config/NuGet/NuGet.Config"
+        "/Users/lucaspires/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -30,6 +30,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "projectReferences": {}
         }
       },
@@ -41,6 +42,7 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
+        "targetAlias": "netcoreapp3.0",
         "imports": [
           "net461",
           "net462",
@@ -56,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
