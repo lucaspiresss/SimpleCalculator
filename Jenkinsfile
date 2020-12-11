@@ -17,6 +17,7 @@ pipeline {
     stage('Package') {
       steps {
         sh 'tar -zcvf SimpeCalculator.tgz SimpleCalculator/bin/Debug/netcoreapp3.0/SimpleCalculator'
+        archiveArtifacts 'SimpeCalculator.tgz'
       }
     }
 
