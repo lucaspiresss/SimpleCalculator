@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'dotnet build'
-        archiveArtifacts '/bin/Debug'
+        archiveArtifacts '/bin/Debug/**'
       }
     }
 
