@@ -16,7 +16,7 @@ pipeline {
 
     stage('Package') {
       steps {
-        sh 'zip SimpleCalculator.zip SimpleCalculator/bin/Debug/netcoreapp3.0/SimpleCalculator'
+        sh 'tar -zcvf SimpeCalculator.tgz SimpleCalculator/bin/Debug/netcoreapp3.0/SimpleCalculator'
       }
     }
 
