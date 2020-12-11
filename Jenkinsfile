@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'dotnet build'
-        archiveArtifacts 'SimpleCalculator/bin/Debug/netcoreapp3.0/SimpleCalculator'
+        archiveArtifacts(artifacts: 'SimpleCalculator/bin/Debug/netcoreapp3.0/SimpleCalculator', excludes: 'pipeline.log')
       }
     }
 
