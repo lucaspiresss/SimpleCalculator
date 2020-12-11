@@ -21,5 +21,11 @@ pipeline {
       }
     }
 
+    stage('Deploy') {
+      steps {
+        sh 'sshpass -p appserverpassword scp SimpeCalculator.tgz root@192.168.30.12:/home/vagrant'
+      }
+    }
+
   }
 }
